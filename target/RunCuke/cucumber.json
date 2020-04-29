@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 69719694600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should navigate to switch an  account successfully",
+        "description": "",
+        "id": "customer-feature;user-should-navigate-to-switch-an--account-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 152300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 506943400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1216793800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Click on Bank tab",
+            "match": {
+              "location": "MyStepdefs.iClickOnBankTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1064685400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on switch to bank account",
+            "match": {
+              "location": "MyStepdefs.iClickOnSwitchToBankAccount()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "customer feature",
+    "description": "as a customer i can see switch to  an account successfully",
+    "id": "customer-feature",
+    "keyword": "Feature",
+    "uri": "src/test/java/uk/co/barclays/resources/featurefile/barclays.feature"
+  }
+]
